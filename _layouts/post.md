@@ -1,10 +1,7 @@
 {% include header.html %}
-{% include nav.html %}
 {% include intro.md %}
-<div class="synopsis">
 　　{{ content }}
+<div style="height:100px; background: #bbcccc">
 
 </div>
-
-{% include contact.md %}
 {% include footer.html %}
