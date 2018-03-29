@@ -1,4 +1,4 @@
-{% include header.html %}
+{% include header_post.html %}
 {% include nav.html %}
 {% include intro.md %}
 <div class="content">
