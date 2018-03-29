@@ -1,5 +1,5 @@
 <div class="intro">
 
-<img style="width: 100%;" src="http://localhost:4000//Blog/imgs/intro.jpg">
+<img style="width: 100%;" src="{{ site.url }}/{{ site.baseurl }}/imgs/intro.jpg">
 
 </div>

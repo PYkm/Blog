@@ -42,10 +42,27 @@ body{
     padding: 10px;
 }
 
-.synopsis a{
-    text-decoration: none;
+.synopsis h2{
+padding: 1% 0;
 }
 
+.author{
+
+}
+
+.excerpt{
+	color:#556655;
+	padding:1% 0;
+}
+
+.synopsis a{
+    text-decoration: none;
+    color:#99aaaa;
+}
+
+.synopsis a:hover{
+	color:#4499cc;
+}
 
 .contact{
 	height:20%;

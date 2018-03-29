@@ -1,0 +1,20 @@
+
+.content h2{
+	padding:4% 0;
+}
+
+.content p{
+	text-indent: 2em;
+	margin-bottom:2%;
+}
+
+.content blockquote{
+	text-indent: 5em;
+	background: #ccccbb;
+	padding:2%;
+	margin: 3% 0;
+}
+
+.content ol{
+	list-style-position: inside;
+}
