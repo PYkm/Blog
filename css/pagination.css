@@ -1,0 +1,11 @@
+.pagination{
+	text-align: center;
+	padding:1%;
+}
+
+.pagination a{
+	text-decoration: none;
+	background: #ccccbb;
+	padding: 1%;
+	color:#000;
+}
