@@ -8,7 +8,15 @@
 	text-indent: 2em;
 	margin-bottom: 2%;
 	line-height: 1.4em;
-	color: #556655;
+}
+
+.content ol{
+	list-style-position: inside;
+	margin: 0 0 0 2em;
+    margin-bottom: 2%;
+    line-height: 1.4em;
+	background: #ccccbb;
+	padding:2% 7%;
 }
 
 .content blockquote{
@@ -39,8 +47,4 @@ p .icon-quotes-left{
 div.source, div.quotes-right{
 	text-align: right;
     padding: 0 2% 2%;
-}
-
-.content ol{
-	list-style-position: inside;
 }

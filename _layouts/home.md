@@ -25,7 +25,7 @@ layout: default
 </p>
 <div class="tags">
 	{% for tag in post.tags %}
-	<a class="tag" href="">{{ tag }}</a>
+	<a class="tag" href="{{ site.baseurl }}/all?tag={{ tag }}">{{ tag }}</a>
 	{% endfor %}
 </div>
 <div class="excerpt">

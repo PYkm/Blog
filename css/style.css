@@ -40,6 +40,7 @@ ul{
     padding:5%;
     text-align: left;
 	background: #ffffee;
+	color: #556655;
 }
 
 .content h1{
@@ -118,4 +119,8 @@ a.tag:hover{
 	font-size: 2em;
 	color:#99aaaa;
 	/*color: #556655;*/
+}
+
+.icon-zcool{
+	content: 'Z';
 }
