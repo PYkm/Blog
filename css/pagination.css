@@ -1,11 +1,22 @@
 .pagination{
 	text-align: center;
-	padding:1%;
+	padding: 5% 1% 0;
+	border-top: 3px solid #668855;
+	font-weight:600;
+	color:#668855;
 }
 
 .pagination a{
 	text-decoration: none;
-	background: #ccccbb;
-	padding: 1%;
-	color:#000;
+	/*background: #ccccbb;*/
+	background: #99aaaa;
+	padding: 0.8% 1%;
+	/*color:#000;*/
+	color:#fff;
+	border-radius: 8px;
+}
+
+.pagination a:hover{
+	background: #4499cc;
+
 }

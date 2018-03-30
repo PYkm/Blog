@@ -12,13 +12,22 @@ layout: default
 {% endfor %}
  -->
 
+
+<h1>中文博客</h1>
+
 <!-- 遍历分页后的文章 -->
+
 {% for post in paginator.posts %}
 <div class="synopsis">
-<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+<h2><a class="tit" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 <p class="author">
-<span class="date">{{ post.date }}</span>
+<span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
 </p>
+<div class="tags">
+	{% for tag in post.tags %}
+	<a class="tag" href="">{{ tag }}</a>
+	{% endfor %}
+</div>
 <div class="excerpt">
 {{ post.excerpt }}
 </div>

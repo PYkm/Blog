@@ -1,18 +1,44 @@
 
 .content h2{
-	padding:4% 0;
+	padding: 4% 0;
+	color: #4499cc;
 }
 
 .content p{
 	text-indent: 2em;
-	margin-bottom:2%;
+	margin-bottom: 2%;
+	line-height: 1.4em;
+	color: #556655;
 }
 
 .content blockquote{
-	text-indent: 5em;
 	background: #ccccbb;
-	padding:2%;
+	padding:2% 7%;
 	margin: 3% 0;
+}
+
+.content blockquote p{
+	text-indent: 0;
+	padding:2%;
+	margin-bottom:0;
+	line-height: 1.5em;
+}
+
+p .icon-quotes-left{
+	position: relative;
+	top:0;
+	left:-8%;
+}
+
+.icon-quotes-right{
+	position: relative;
+	top:0;
+	right:-8%;
+}
+
+div.source, div.quotes-right{
+	text-align: right;
+    padding: 0 2% 2%;
 }
 
 .content ol{

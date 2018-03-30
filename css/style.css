@@ -14,32 +14,43 @@ body{
 
 .box{
 	/*display: flex;*/
-	width:80%;
+	width:90%;
 	/*height:100%;*/
 	text-align: center;
-	margin:3% 10% 5%;
-	background: #ffffee;
+	margin:0% auto;
 }
 
 .nav{
-	display: none;
+	/*display: none;*/
+}
+
+ul{
+	list-style: none;
 }
 
 .intro{
 	width:100%;
 	height:20%;
-	max-height: 150px;
+	/*max-height: 150px;*/
 	overflow: hidden;
+	margin:5% auto;
 }
 
 .content{
-   padding:5%;
-   text-align: left;
+    padding:5%;
+    text-align: left;
+	background: #ffffee;
+}
+
+.content h1{
+   padding:3% 0;
+   color: #888866;
 }
 
 .synopsis{
 	list-style-type: none;
-    padding: 10px;
+    padding: 2% 1%;
+	border-top: 1px dashed #668855;
 }
 
 .synopsis h2{
@@ -47,7 +58,7 @@ padding: 1% 0;
 }
 
 .author{
-
+   color: #888866;
 }
 
 .excerpt{
@@ -55,30 +66,56 @@ padding: 1% 0;
 	padding:1% 0;
 }
 
-.synopsis a{
+div.tags{
+	padding: 1% 0;
+    margin: 1% auto;
+}
+
+a.tag{
+	background: #888866;
+	padding: 0.7% 1.7%;
+	color:#fff;	
+	text-decoration: none;
+	border-radius: 8px;
+}
+
+a.tag:hover{
+	background: #668855;	
+}
+
+.synopsis a.tit{
     text-decoration: none;
     color:#99aaaa;
 }
 
-.synopsis a:hover{
+.synopsis a.tit:hover{
 	color:#4499cc;
 }
 
 .contact{
 	height:20%;
-	min-height:100px;
+	/*min-height:100px;*/
+    padding:5%;
+    margin:5% auto;
+    background: #ffffee;
+	/*background: #d3d3d3;*/
+	/*background: #556655;*/
+	/*background: #99aaaa;*/
 }
 
 .contact a{
 	text-decoration: none;
+	margin: 0.5%;
 }
 
 .contact a:hover{
 	color:#4499cc;
+	/*color:#fff;*/
 
 }
 
 [class^="icon-"], [class*=" icon-"] {
 	font-size: 2em;
 	color:#99aaaa;
+	/*color: #556655;*/
 }
