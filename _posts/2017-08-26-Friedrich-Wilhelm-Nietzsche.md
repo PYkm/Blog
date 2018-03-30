@@ -38,14 +38,14 @@ date: 2017.08.26 19:52:00
 > <div class="source">————《曙光》</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
-> <span class="icon-quotes-left"></span> 
+> <span class="icon-quotes-left"></span>  
 > 每个人都有专属的特质。成功的人往往是了解自己的特质并加以利用，然而另一部分人却从未知晓自己的优势所在。  
 > 这个寻找的过程有些人全屏个人摸索，而有些人则比较擅长通过别人的反应来做判断。  
 > 哪种方式都无妨，关键是坚持不懈，这才能发现个人的优势所在。  
 > <div class="source">————《人性的，太人性的》</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
-> <span class="icon-quotes-left"></span> 
+> <span class="icon-quotes-left"></span>  
 > 虚荣心也就是人类的面子，他的确是个复杂的玩意。  
 > 比如，看似坦白的人，坦白自己的缺点、怪癖或者是坏事，也许是为了掩饰自己更加阴暗的部分。  
 > 每个人都有自由决定公开和掩饰的部分，所以这为我们提供了去看待他人的角度，他掩饰了什么，其实也是最羞愧的部分，炫耀什么，就是最在乎的部分。  
