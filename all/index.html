@@ -8,18 +8,24 @@ title: 所有博文
 		var r, param, searches = decodeURI(window.location.search).substr(1);
 		param = searches.split('&');
 		/*param[]*/
+		for(x=0; x<param.length; x++){
+			if (param[x].indexOf(name + '=') > 0)
+			{
+				r = param[x].substr(5);
+			}
+		}
+
         return r;
     } 
 
     var tagActive = getQueryString('tag');
     console.log(decodeURI(tagActive));
     console.log(decodeURI(window.location.search));
-
-
+    document.write("{% for tag in site.tags %}");
+    document.write("{% if tag[0] ==" + tagActive + " %}");
 </script>
 
-{% for tag in site.tags %}
-{% if tag[0] == "旅游" %}
+
 {% for post in tag[1] %}
 
 <div class="synopsis">

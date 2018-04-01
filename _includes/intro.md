@@ -8,6 +8,6 @@
 	<span class="icon-quotes-right"></span></p>
 </blockquote> 
 -->
-<img style="width: 100%;" src="{{ site.url }}/{{ site.baseurl }}/imgs/introBg.png">
+<img style="width: 100%;" src="{{ site.url }}/{{ site.baseurl }}/imgs/introBg.jpg">
 
 </div>
