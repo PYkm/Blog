@@ -22,8 +22,9 @@ title: 所有博文
     console.log(decodeURI(tagActive));
     console.log(decodeURI(window.location.search));
 </script>
+
 {% for tag in site.tags %}
-{% if tag[0] == {{tagActive}} %}
+{% if tag[0] == '旅游' %}
 {% for post in tag[1] %}
 
 <div class="synopsis">
