@@ -2,21 +2,7 @@
 layout: default
 ---
 
-<!-- 
-{% for post in site.posts %}
-<div class="synopsis">
-	<h2>{{ post.date | date_to_string }} </h2>
-	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	<p>{{ post.excerpt | strip_html }}</p>
-</div>
-{% endfor %}
- -->
-
-
 <h1>中文博客</h1>
-
-<!-- 遍历分页后的文章 -->
-
 {% for post in paginator.posts %}
 <div class="synopsis">
 <h2><a class="tit" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -29,7 +15,7 @@ layout: default
 	{% endfor %}
 </div>
 <div class="excerpt">
-{{ post.excerpt }}
+<a class="exc" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}</a>
 </div>
 </div>
 {% endfor %}

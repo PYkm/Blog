@@ -8,6 +8,15 @@
 	<span class="icon-quotes-right"></span></p>
 </blockquote> 
 -->
-<img style="width: 100%;" src="{{ site.url }}/{{ site.baseurl }}/imgs/introBg.jpg">
 
+<img id="introBg" src="{{ site.url }}/{{ site.baseurl }}/imgs/introBg.jpg">
+
+<!--
+<img id="introBg" src="{{ site.url }}/{{ site.baseurl }}/imgs/introB.png">
+
+
+<div class="intro_content">
+</p>你的问题主要在于读书不多而想得太多</p>
+</p>———— 杨绛</p></div> 
+-->
 </div>
