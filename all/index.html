@@ -3,7 +3,7 @@ layout: default
 title: 所有博文
 ---
 
-<script type="text/javascript">
+<script type="text/javascript" >
 	function getQueryString(name) { 
 		var r, param, searches = decodeURI(window.location.search).substr(1);
 		param = searches.split('&');
@@ -21,11 +21,9 @@ title: 所有博文
     var tagActive = getQueryString('tag');
     console.log(decodeURI(tagActive));
     console.log(decodeURI(window.location.search));
-    document.write("{% for tag in site.tags %}");
-    document.write("{% if tag[0] ==" + tagActive + " %}");
 </script>
-
-
+{% for tag in site.tags %}
+{% if tag[0] == {{tagActive}} %}
 {% for post in tag[1] %}
 
 <div class="synopsis">
