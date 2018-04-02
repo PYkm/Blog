@@ -8,16 +8,43 @@ html,body{
 	height:100%;
 }
 
+
+
+@media screen and (max-width: 600px){
+ .box{
+	width:100%;	
+}
+
+body{
+	background: #ffffee;
+}
+
+}
+
+
+@media screen and (min-width: 600px){
+
 body{
 	background: #bbcccc;
+}
+ .box{
+	width:90%;	
+	margin:0% auto;
+}
+.intro{
+	margin:5% auto;
+}
+.contact{
+    margin:5% auto;
+
+}
 }
 
 .box{
 	/*display: flex;*/
-	width:90%;
 	/*height:100%;*/
 	text-align: center;
-	margin:0% auto;
+	margin-top: -22px;
 }
 
 .nav{
@@ -33,7 +60,6 @@ ul{
 	height:20%;
 	/*max-height: 150px;*/
 	overflow: hidden;
-	margin:5% auto;
 	/*background: #ffffee;*/
 	/*background: url('../imgs/introBg.jpg') center;*/
 }
@@ -74,6 +100,7 @@ ul{
 
 #introBg{
 	width:100%;
+	display: block;
 	/*opacity: 0;*/
 }
 
@@ -87,6 +114,7 @@ ul{
 .content h1{
    padding:3% 0;
    color: #888866;
+   border-bottom: 3px solid #668855;
 }
 
 .synopsis{
@@ -144,7 +172,6 @@ a.tag:hover{
 	height:20%;
 	/*min-height:100px;*/
     padding:5%;
-    margin:5% auto;
     background: #ffffee;
 	/*background: #d3d3d3;*/
 	/*background: #556655;*/

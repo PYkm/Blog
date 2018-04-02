@@ -6,8 +6,6 @@ excerpt: 我们或许听过他的名字，却不了解其人，我们或许听�
 date: 2017.08.26 19:52:00
 ---
 
-## {{ page.title }}
-
 我们或许听过他的名字，却不了解其人，
 我们或许听过这句话，却不知出处。
 
@@ -53,6 +51,3 @@ date: 2017.08.26 19:52:00
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 如果你看完之后，也觉得很有感触，那么不妨看一看这本书吧~
-
-
-<p>{{ page.date | date_to_string }}</p>

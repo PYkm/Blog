@@ -1,16 +1,62 @@
 
-.content h2{
-	padding: 4% 0;
-	color: #4499cc;
+@media screen and (max-width: 600px){
+ .box_post{
+	width:100%;	
+	margin-top: -22px;
 }
 
-.content p{
+}
+
+
+@media screen and (min-width: 600px){
+ .box_post{
+	width:90%;	
+	margin:3% auto;
+}
+}
+
+.box_post{
+	/*display: flex;*/
+	/*height:100%;*/
+	text-align: center;
+	/*margin-top: -22px;*/
+}
+
+
+.content_post{
+    padding:5%;
+    text-align: left;
+	background: #ffffee;
+	color: #556655;
+}
+
+.content_post h2{
+	padding: 0 0 2%;
+	margin-bottom: 2%;
+	color: #4499cc;
+	font-size:	2em;
+	border-bottom: 10px double #668855;
+}
+
+.content_post p{
+	font-size:	1.1em;
 	text-indent: 2em;
 	margin-bottom: 2%;
 	line-height: 1.4em;
 }
 
-.content ol{
+.content_post ul a{
+	color:#99aaaa;	
+	text-decoration: none;
+	font-weight: 350;
+	font-size: 1.1em;
+}
+
+.content_post ul a:hover{
+	color: #4499cc;	
+}
+
+.content_post ol{
 	list-style-position: inside;
 	margin: 0 0 0 2em;
     margin-bottom: 2%;
@@ -19,13 +65,14 @@
 	padding:2% 7%;
 }
 
-.content blockquote{
+.content_post blockquote{
 	background: #ccccbb;
 	padding:2% 7%;
 	margin: 3% 0;
+	color: #000;
 }
 
-.content blockquote p{
+.content_post blockquote p{
 	text-indent: 0;
 	padding:2%;
 	margin-bottom:0;
@@ -47,4 +94,9 @@ p .icon-quotes-left{
 div.source, div.quotes-right{
 	text-align: right;
     padding: 0 2% 2%;
+}
+
+.recent{
+	background: #ffffee;
+	
 }

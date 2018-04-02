@@ -1,0 +1,67 @@
+.tip{
+	background: #ffffee;
+	padding: 0 5% 5%;
+	color: #556655;
+	font-size: 1.1em;
+}
+
+#peachBlossom{
+	width:80px;
+}
+
+/*Tip Page css*/
+.content_tip{
+    padding:5%;
+    text-align: left;
+	background: #ffffee;
+	color: #556655;
+}
+
+.content_tip h2{
+	padding: 2% 0 2%;
+	margin-bottom: 2%;
+	color: #4499cc;
+	font-size:	2em;
+	border-bottom: 10px double #668855;
+}
+
+
+.content_tip p{
+	font-size:	1.1em;
+	text-indent: 2em;
+	margin-bottom: 2%;
+	line-height: 1.4em;
+}
+
+.content_tip a{
+	color:#99aaaa;	
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.content_tip a:hover{
+	color: #4499cc;	
+}
+
+.tip_ways{
+	/*list-style-position: inside;*/
+	margin: 0 0 0 2em;
+    margin-bottom: 2%;
+    line-height: 1.4em;
+	background: #ccccbb;
+	padding:2% 7%;
+	color: #000;
+}
+
+.tip_ways p{
+	text-indent: 0em;
+	word-wrap: break-word;
+}
+
+.tip_ways img{
+	/*width:200px;*/
+	width: 70%;
+	max-width: 200px;
+	border: 8px double #668855;
+	border-radius: 20px;
+}
