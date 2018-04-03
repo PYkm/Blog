@@ -5,8 +5,11 @@
 	margin-top: -22px;
 }
 
+.recents{
+	margin: 0 !important;
 }
 
+}
 
 @media screen and (min-width: 600px){
  .box_post{
@@ -22,12 +25,29 @@
 	/*margin-top: -22px;*/
 }
 
+.nav_post{
+	text-align: right;
+}
+
+.nav_post a{
+	color: #668855 !important;
+    text-decoration: none;
+    font-size: 1.1em !important;
+    font-weight: 550 !important;
+    padding: 1% !important;
+}
+
+.nav_post a:hover{
+	color: #556655 !important;
+}
+
 
 .content_post{
     padding:5%;
     text-align: left;
 	background: #ffffee;
 	color: #556655;
+	padding-bottom: .5%; 
 }
 
 .content_post h2{
@@ -46,14 +66,16 @@
 }
 
 .content_post ul a{
-	color:#99aaaa;	
+	/*color:#99aaaa;*/
+	color:#668855;
 	text-decoration: none;
 	font-weight: 350;
 	font-size: 1.1em;
 }
 
 .content_post ul a:hover{
-	color: #4499cc;	
+	/*color: #4499cc;	*/
+	color: #556655;
 }
 
 .content_post ol{
@@ -63,6 +85,7 @@
     line-height: 1.4em;
 	background: #ccccbb;
 	padding:2% 7%;
+	color: #000;
 }
 
 .content_post blockquote{
@@ -96,7 +119,84 @@ div.source, div.quotes-right{
     padding: 0 2% 2%;
 }
 
-.recent{
+.recents{
 	background: #ffffee;
-	
+	margin: 5% auto;
+	padding: 5%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recent{
+	border-left: solid 5px #99aaaa;
+	text-align: left;
+	background: #ccccbb;
+	padding: 5%;
+	flex-grow: 1;
+}
+
+.similar{
+	padding-bottom: .5% !important;
+}
+
+.recent h2{
+	margin-bottom: 2%;
+	font-weight: 700;
+}
+
+
+.recent ul li{
+
+	margin-bottom: .5%;
+}
+
+.recent ul a{
+	color: #556655;	
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 550;
+	padding:1%;
+}
+
+
+.recent ul a:hover{
+	color: #668855;	
+}
+
+.page{
+	background: #ffffee;
+	padding: 1% 5% 5% !important;
+	border-top: unset !important;
+}
+
+.page{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.page a{
+	padding: 0.8% 5% !important;
+}
+
+.page div{
+	flex-grow: 1;
+	padding: 1.5% 1%;
+}
+
+.page div.left{
+	text-align: left;
+}
+
+.page div.right{
+	text-align: right;
+}
+
+.date{
+	font-size: 1.1em;
+	color:#000;
+	text-align: right;
 }
