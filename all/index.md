@@ -51,6 +51,11 @@ title: 所有相关博文
 
 <!-- 所有博文 -->
 
+<div class="nav_post">
+	<ul>
+		<li><a href="{{ site.baseurl }}/">首页</a></li>
+	</ul>
+</div>
 <h1 id="tagName"></h1>
 {% for post in site.posts %}
 <div class="synopsis {% for tag in post.tags %} tag-{{ tag }}{% endfor %}">

@@ -22,20 +22,27 @@ layout: default
 
 <!-- 分页链接 -->
 <div class="pagination">
+
 {% if paginator.previous_page %}
+<a href="{{ site.baseurl }}/" class="">首 页</a>
 {% if paginator.previous_page != 1 %}
 <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}" class="">上一页</a>
 {% else %}
 <a href="{{ site.baseurl }}/" class="">上一页</a>
-
 {% endif %}
 {% else %}
+<span class="">首 页</span>
 <span class="">上一页</span>
 {% endif %}
+
 <span class="page_number ">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+
 {% if paginator.next_page %}
 <a href="{{ site.baseurl }}/page{{ paginator.next_page }}" class="">下一页</a>
+<a href="{{ site.baseurl }}/page{{ paginator.total_pages }}" class="">末 页</a>
 {% else %}
 <span class="">下一页</span>
+<span class="">末 页</span>
 {% endif %}
+
 </div>

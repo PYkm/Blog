@@ -8,6 +8,21 @@ html,body{
 	height:100%;
 }
 
+.nav_post{
+	text-align: right;
+}
+
+.nav_post a{
+	color: #668855 !important;
+    text-decoration: none;
+    font-size: 1.1em !important;
+    font-weight: 550 !important;
+    padding: 1% !important;
+}
+
+.nav_post a:hover{
+	color: #556655 !important;
+}
 
 
 @media screen and (max-width: 600px){
@@ -195,6 +210,3 @@ a.tag:hover{
 	/*color: #556655;*/
 }
 
-.icon-zcool{
-	content: 'Z';
-}
