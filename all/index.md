@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: all
 title: 所有相关博文
 ---
 

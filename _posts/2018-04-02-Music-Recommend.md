@@ -19,21 +19,21 @@ location: 上海
 
 <ul>
 	<li>
-		<a target="_blank" href="http://music.163.com/song/425828594">Good Thing - Jake Miller</a>
+		<a title="点击听歌" target="_blank" href="http://music.163.com/song/425828594">Good Thing - Jake Miller</a>
 	</li>
 	<li>
-		<a target="_blank" href="http://music.163.com/song/29950374">Shy - Jai Waetford</a>
+		<a title="点击听歌" target="_blank" href="http://music.163.com/song/29950374">Shy - Jai Waetford</a>
 	</li>
 	<li>
-		<a target="_blank" href="http://music.163.com/song/1217729">Everything But the Girl - Darin</a>
+		<a title="点击听歌" target="_blank" href="http://music.163.com/song/1217729">Everything But the Girl - Darin</a>
 	</li>
 	<li>
-		<a target="_blank" href="http://music.163.com/song/21725725">The Promise - Secret Garden</a>
+		<a title="点击听歌" target="_blank" href="http://music.163.com/song/21725725">The Promise - Secret Garden</a>
 	</li>
 	<li>
-		<a target="_blank" href="http://music.163.com/song/405485737">Try Everything - Shakira</a>
+		<a title="点击听歌" target="_blank" href="http://music.163.com/song/405485737">Try Everything - Shakira</a>
 	</li>
 	<li>
-		<a target="_blank" href="http://music.163.com/song/401249910">We Don't Talk Anymore - Charlie Puth/ Selena Gomez</a>
+		<a title="点击听歌" target="_blank" href="http://music.163.com/song/401249910">We Don't Talk Anymore - Charlie Puth/ Selena Gomez</a>
 	</li>
 </ul>

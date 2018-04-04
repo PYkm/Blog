@@ -1,9 +1,29 @@
+@media screen and (max-width: 600px){
+
+	.pagination{
+		display:flex;
+	}
+
+	.pagination a{
+		margin: 1%;
+    	flex-grow: 0;
+	}
+	
+	.pagination span{
+	margin: 1%;
+    flex-grow: 0;
+	}
+}
+
 .pagination{
 	text-align: center;
 	padding: 5% 1% 0;
 	border-top: 3px solid #668855;
 	font-weight:600;
 	color:#668855;
+	justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .pagination a{
