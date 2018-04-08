@@ -1,3 +1,3 @@
 # Blog
 
-You can see the blog via this link
+You can check my [Blog](https://pykm.github.io/Blog/)
