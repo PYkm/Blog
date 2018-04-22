@@ -184,3 +184,64 @@ div.source, div.quotes-right{
 	/*color:#000;*/
 	text-align: right;
 }
+
+.calligraphy{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.calligraphy img{
+	max-width: 700px;
+	width:80%;
+	border: 8px double #668855;
+    /*border-radius: 20px;*/
+    margin: 5px;
+}
+
+.zentangle{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.zentangle img{
+	max-width: 500px;
+	width:80%;
+	border: 8px double #668855;
+    /*border-radius: 20px;*/
+    margin: 5px;
+}
+
+.graffiti{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.graffiti img{
+	max-width: 500px;
+	width:80%;
+	border: 8px double #668855;
+    /*border-radius: 20px;*/
+    margin: 5px;
+}
+
+
+a.link {
+	color: #bbcccc;
+	text-decoration: none;
+	font-weight:600;
+}
+
+a.link:hover{
+	color: #4499cc;
+
+}
