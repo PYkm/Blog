@@ -55,6 +55,7 @@
 	text-decoration: none;
 	font-weight: 350;
 	font-size: 1.1em;
+	transition:all 0.7s;
 }
 
 .content_post ul a:hover{

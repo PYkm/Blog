@@ -8,6 +8,18 @@ html,body{
 	height:100%;
 }
 
+::selection
+{
+	background:#bbcccc;
+	color:#ffffee;
+}
+
+::-moz-selection
+{
+	background:#ff0000;
+	color:#ffffee;
+}
+
 .nav_post{
 	text-align: right;
 }
@@ -164,20 +176,29 @@ div.tags{
 }
 
 a.tag{
+	/*
 	background: #888866;
-	padding: 0.7% 1.7%;
 	color:#fff;	
+	*/
+	background: rgba(255,255,238,0.5);
+	color: #668855;
+	border: 1px rgba(0,0,0,0.3) solid;
+	padding: 0.7% 1.7%;
 	text-decoration: none;
 	border-radius: 8px;
+	transition:all 0.7s;
 }
 
 a.tag:hover{
-	background: #668855;	
+	/*background: #668855;	*/
+	background: #ffffc9;
+
 }
 
 .synopsis a.tit{
     text-decoration: none;
     color:#99aaaa;
+	transition:all 0.7s;
 }
 
 .synopsis a.tit:hover{
@@ -197,6 +218,7 @@ a.tag:hover{
 .contact a{
 	text-decoration: none;
 	margin: 0.5%;
+	transition:all 0.7s;
 }
 
 .contact a:hover{
