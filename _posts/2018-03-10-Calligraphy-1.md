@@ -13,11 +13,24 @@ location: 上海
 开始前，在网上查了很多教程，想要有个好的开始~ 查了一下发现，要先用温水泡笔十分钟，意为开笔，于是开心的把四支笔都开了，因为以后想偷懒。然而，第二天又准备写字时发现，原来，**每次写毛笔字都要开笔的！**再因为实在是太不熟悉写毛笔字的方法，就决定暂时先在水写布上占水写，写得差不多了，再用墨水。于是开始了学写毛笔字第一课，希望年底能够写出像样的毛笔字！
 
 这次的几张：
-<div class="calligraphy">
-	<img title="毛笔字" src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-I.jpg"/>
-	<img title="毛笔字" src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-II.jpg"/>
-	<img title="毛笔字" src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-III.jpg"/>
-	<img title="毛笔字" src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-IV.jpg"/>
-	<img title="毛笔字" src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-V.jpg"/>
-	<img title="毛笔字" src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-VI.jpg"/>
+
+<div class="zoom-gallery">
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-I.jpg" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-I.jpg" title="毛笔字" style="width:437px; height:240px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-I.jpg" width="437" height="240">
+	</a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-III.jpg" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-III.jpg" title="毛笔字" style="width:232px; height:240px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-III.jpg" width="232" height="240">
+	</a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-II.jpg" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-II.jpg" title="毛笔字" style="width:350px; height:240px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-II.jpg" width="350" height="240">
+	</a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-IV.jpg" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-IV.jpg" title="毛笔字" style="width:111px; height:240px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-IV.jpg" width="111" height="240">
+	</a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-V.jpg" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-V.jpg" title="毛笔字" style="width:192px; height:240px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-V.jpg" width="192" height="240">
+	</a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-VI.jpg" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-VI.jpg" title="毛笔字" style="width:130px; height:240px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2018-03-10-Calligraphy-1-VI.jpg" width="130" height="240">
+	</a>
 </div>

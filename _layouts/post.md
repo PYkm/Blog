@@ -29,4 +29,4 @@
 {% include pages.md %}
 {% include recent.md %}
 {% include contact.md %}
-{% include footer.html %}
+{% include footer_post.html %}
