@@ -43,7 +43,8 @@ body{
 	background: #bbcccc;
 }
  .box{
-	width:90%;	
+	width:90%;
+	max-width: 900px;	
 	margin:0% auto;
 }
 .intro{
