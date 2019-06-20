@@ -3,7 +3,7 @@ layout: post
 tags: 
 - Web Front-End
 title: RESTful API 设计理念
-excerpt: 请注意这里假设你对web有一定的基础知识，并且已经熟悉了API，如果你还对API的概念模棱两可，建议你先查看我的上一篇博文([传送门]({{ site.url }}/{{ site.baseurl }}/2019/06/05/The-Concept-of-API.html))。
+excerpt: 请注意这里假设你对web有一定的基础知识，并且已经熟悉了API，如果你还对API的概念模棱两可，建议你先查看我的上一篇博文。
 date: 2019.06.05 20:32:15
 location: 上海
 ---
