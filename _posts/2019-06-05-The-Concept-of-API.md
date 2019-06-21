@@ -29,7 +29,7 @@ location: 上海
 看完了这张图，我们来讲讲web中的API。通常API有两种形式：XML和JSON。
 这里以github提供的[API](https://api.github.com/)为例(删减部分数据，并以省略号代替)：
 
-{% highlight json linenos %}
+{% highlight json %}
 {
   ......
   "emails_url": "https://api.github.com/user/emails",

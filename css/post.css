@@ -197,8 +197,8 @@ div.source, div.quotes-right{
 .calligraphy img{
 	max-width: 700px;
 	width:80%;
-	border: 8px double #668855;
-    /*border-radius: 20px;*/
+	border: 2px solid #bbcccc;
+    border-radius: 10px;
     margin: 5px;
 }
 
@@ -214,9 +214,9 @@ div.source, div.quotes-right{
 .zentangle img{
 	max-width: 500px;
 	width:80%;
-	border: 8px double #668855;
-    /*border-radius: 20px;*/
-    margin: 5px;
+	border: 2px solid #bbcccc;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .graffiti{
@@ -260,4 +260,19 @@ table th{
 table th,td{
     border-right:1px solid #000000;
     border-bottom:1px solid #000000;
+}
+
+.highlight {
+	color: #abb2bf;
+    background: #282c34;
+    padding: 1%;
+    line-height:19px;
+}
+
+.highlight pre{
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
 }

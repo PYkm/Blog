@@ -24,8 +24,8 @@ location: 上海
 这里需要注意的是：
 URI只代表资源的实体，不代表它的形式。它的具体表现形式，应该在HTTP请求的头信息中用Accept和Content-Type字段指定。如果你当前使用的是chrome浏览器，那么你可以F12打开“开发者工具”，在其中找到“Network”标签，刷新当前页面，点击任意资源名，在右侧会显示其对应的http请求以及响应结果。打开其中的“Request Header”可以看到accept: ...... 的一行数据。这里的数据内容就是表现层了。请查看下面这个截图示例(点击放大)：
 <div class="zoom-gallery">
-	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2019-06-05-Learn-RESTful-Idea-about-API-I.png" data-detail="在Chrome中查看表现层细节" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2019-06-05-Learn-RESTful-Idea-about-API-I.png" title="表现层" style="width:1000px; height:331px;">
-		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2019-06-05-Learn-RESTful-Idea-about-API-I.png" width="500" height="165">
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2019-06-05-Learn-RESTful-Idea-about-API-I.png" data-detail="在Chrome中查看表现层细节" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2019-06-05-Learn-RESTful-Idea-about-API-I.png" title="表现层" style="width:259px; height:85.5px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2019-06-05-Learn-RESTful-Idea-about-API-I.png" width="259" height="85.5">
 	</a>
 </div>
 
