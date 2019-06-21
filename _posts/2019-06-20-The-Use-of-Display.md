@@ -9,6 +9,7 @@ location: 上海
 ---
 
 Q: 怎样在flex和float+posion+display之间做选择？
+
 A: 首先必须强调，flex的出现就是为了让页面布局变得更轻松。所以一般推荐可以使用flex时，就使用flex。为了解答这个疑惑，请认真看完本片博文。 
 
 
@@ -97,7 +98,7 @@ id="parent"的div未设置<code>display:flex;</code>时的页面如下：
 
 #### 这里必须注意，设为 Flex 布局以后，子元素的float、clear 和 vertical-align 属性将失效。
 
-那么，本次博客就介绍这些，更多细节欢迎点击下面的链接。
+好的，本次博客就介绍到这里，更多细节欢迎点击下面的链接查看~
 
 本博客参考链接：
 1. [A visual guide to css3 flexbox properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
