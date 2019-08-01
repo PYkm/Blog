@@ -184,6 +184,7 @@ div.source, div.quotes-right{
 	font-size: 1.1em;
 	/*color:#000;*/
 	text-align: right;
+	line-height: 2em;
 }
 
 .calligraphy{
