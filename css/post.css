@@ -276,3 +276,23 @@ white-space: -pre-wrap; /* Opera 4-6 */
 white-space: -o-pre-wrap; /* Opera 7 */
 word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
+
+
+.graffitiV2{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	justify-content: center;
+}
+
+.graffitiV2 figure{
+	text-align: center;
+}
+
+.graffitiV2 img{
+	max-width: 500px;
+	width:80%;
+	/*border: 8px double #668855;*/
+    /*border-radius: 20px;*/
+    /*margin: 5px;*/
+}
