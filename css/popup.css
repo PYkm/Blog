@@ -37,3 +37,28 @@
 .zoom-gallery img {
     border: 0;
 }
+
+
+.zoom-pic-full .zoom-pic-half{
+
+}
+
+.zoom-pic-full a{
+	text-decoration: none;
+	cursor: zoom-in;
+}
+
+.zoom-pic-full img {
+    border: 0;
+    width: 100%;
+}
+
+.zoom-pic-half a{
+	text-decoration: none;
+	cursor: zoom-in;
+}
+
+.zoom-pic-half img {
+    border: 0;
+    width: 48%;
+}
