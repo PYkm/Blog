@@ -1,21 +1,17 @@
 ---
 layout: tip
-title: 打赏
+title: 请我看书
 ---
 
-## {{page.title}}
+<!-- ## {{page.title}} -->
 
-嗨~ 欢迎来到这个页面~ 
-
-
-如果喜欢我写的博客，或者觉得对你有帮助，欢迎打赏。
-你可以通过以下方式给我打赏：
+嗨！很开心你喜欢我的部落格，如果觉得对你有帮助，可以请我看本书哦~
 
 <div class="tip_ways">
 <p>1. 	转账到我的支付宝账户</p>
 <p>jennifer.chan3@hotmail.com</p>
 <p>2. 	支付宝扫二维码</p>
-<img title="扫码给我打赏" src="{{ site.url }}/{{ site.baseurl }}/imgs/QR.jpg">
+<img title="扫码请我看本书" src="{{ site.url }}/{{ site.baseurl }}/imgs/QR.jpg">
 </div>
 
 ## 关于我

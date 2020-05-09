@@ -9,8 +9,15 @@
 </blockquote> 
 -->
 
-<img id="introBg" src="{{ site.url }}/{{ site.baseurl }}/imgs/introBg.jpg">
-
+<!-- <img id="introBg" src="{{ site.url }}/{{ site.baseurl }}/imgs/introBg.jpg"> -->
+<!-- Updated on 9 May -->
+<!-- <div style="position:absolute; top:0; left:0;"> -->
+<div class="try">
+	你的问题主要在于读书不多而想得太多。
+	<div style="text-align: right;"> ——杨绛</div>  
+</div>
+<img id="introBg" src="{{ site.url }}/{{ site.baseurl }}/imgs/Photo by Kin Li on Unsplash_1.jpg">
+<!-- </div> -->
 <!--
 <img id="introBg" src="{{ site.url }}/{{ site.baseurl }}/imgs/introB.png">
 

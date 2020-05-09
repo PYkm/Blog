@@ -17,10 +17,17 @@
 
 .pagination{
 	text-align: center;
-	padding: 5% 1% 0;
-	border-top: 3px solid #668855;
+	/*padding: 5% 1% 0;*/
+	/*Updated on 8 May*/
+	margin: 3% 1% 0;
+	/*Removed on 8 May, and recoved on 9 May, and Keeped for reason*/
+
+	/*border-top: 3px solid #668855;*/
+	/*Removed on 8 May*/
 	font-weight:600;
-	color:#668855;
+	/*color:#668855;*/
+	/*Updated on 8 May*/
+	color:#424242;
 	justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -29,7 +36,9 @@
 .pagination a{
 	text-decoration: none;
 	/*background: #ccccbb;*/
-	background: #99aaaa;
+	/*background: #99aaaa;*/
+	/*Removed on 8 May*/
+	background: #637f66;
 	padding: 0.8% 1%;
 	/*color:#000;*/
 	color:#fff;
@@ -38,5 +47,7 @@
 }
 
 .pagination a:hover{
-	background: #4499cc;
+	/*background: #4499cc;*/
+	/*Removed on 8 May*/
+	background: #556655;
 }

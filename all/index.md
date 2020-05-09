@@ -75,8 +75,8 @@ title: 所有相关博文
 {% endfor %}
 
 <!-- 分页链接 -->
-<!--
-<div class="pagination">
+
+<!-- <div class="pagination">
 {% if paginator.previous_page %}
 {% if paginator.previous_page != 1 %}
 <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}" class="">上一页</a>
@@ -93,19 +93,16 @@ title: 所有相关博文
 {% else %}
 <span class="">下一页</span>
 {% endif %}
-</div>
--->
+</div> -->
+
 
 <script>
-	
     var i;
-
     
     var y = document.getElementsByClassName('synopsis');
     for (i = 0; i < y.length; i++) {
     	y[i].style.display = "none";
 	}
-
 
 	document.getElementById('tagName').innerText="所有与" + decodeURI(tagActive) + "有关的博文";
     var x = document.getElementsByClassName('tag-' + decodeURI(tagActive));

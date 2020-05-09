@@ -8,7 +8,6 @@
 		</ul>
 	</div>
 
-
 	<h2 id="{{ page.title }}">{{ page.title }}</h2>
 
 	<div class="tags">
@@ -17,8 +16,10 @@
 		{% endfor %}
 	</div>
 
-　　{{ content }}
-
+	<div class="post_content">
+　　	{{ content }}
+	</div>
+	
 	<div class="date">
 		{{ page.date | date: "%Y年%m月%d日" }}于{{ page.location }}
 	</div>

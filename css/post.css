@@ -27,31 +27,45 @@
 }
 
 .content_post{
-    padding:5%;
+    /*padding:5%;*/
+	/*Updated on 8 May*/
+    padding:3%;
     text-align: left;
-	background: #ffffee;
-	color: #556655;
+	/*background: #ffffee;*/
+	/*Updated on 8 May*/
+	background: #ffffff;
+	/*color: #556655;*/
+	/*Updated on 8 May*/
+	color: #0a0b0d;
 	padding-bottom: .5%; 
 }
 
 .content_post h2{
 	padding: 0 0 2%;
 	margin-bottom: 2%;
-	color: #4499cc;
+	/*color: #4499cc;*/
+	/*Updated on 8 May*/
+    color: #445846;
 	font-size:	2em;
-	border-bottom: 10px double #668855;
+	/*border-bottom: 10px double #668855;*/
+	/*Updated on 8 May*/
+	border-bottom: 10px double #2f3a32;
 }
 
 .content_post p{
 	font-size:	1.1em;
 	text-indent: 2em;
 	margin-bottom: 2%;
+	margin-top: 2%;
 	line-height: 1.4em;
 }
 
 .content_post ul a{
 	/*color:#99aaaa;*/
-	color:#668855;
+	/*color:#668855;*/
+	/* Updated on 8 May*/
+    color: #637f66;
+
 	text-decoration: none;
 	font-weight: 350;
 	font-size: 1.1em;
@@ -60,7 +74,9 @@
 
 .content_post ul a:hover{
 	/*color: #4499cc;	*/
-	color: #556655;
+	/*color: #556655;*/
+	/* Updated on 8 May*/
+    color: #445846;
 }
 
 .content_post ol{
@@ -68,16 +84,47 @@
 	margin: 0 0 0 2em;
     margin-bottom: 2%;
     line-height: 1.4em;
-	background: #ccccbb;
-	padding:2% 7%;
-	color: #000;
+	/*background: #ccccbb;*/
+	/*Updated on 8 May*/
+	/*background: #627c63;*/
+
+	/*Updated on 9 May*/
+	background: #d5cba8;
+
+	/*padding:2% 7%;*/
+	/*Updated on 8 May*/
+	padding:2%;
+	/*color: #000;*/
+	/*Updated on 8 May*/
+	/*color: #0a0b0d;*/
+	/*Updated on 9 May*/
+	/*color: #ffffff;*/
+	/*Updated on 9 May*/
+	color: #0a0b0d;
+
 }
 
+/*.content_post ol a{
+	color: #d5cba8;
+}*/
+/*Added on 9 May*/
+/*Removed on 9 May*/
+
+/*.content_post ol a:hover{
+	color: #ffffff;
+}*/
+/*Added on 9 May*/
+/*Removed on 9 May*/
+
 .content_post blockquote{
-	background: #ccccbb;
+	/*background: #ccccbb;*/
+	/*Updated on 9 May*/
+	background: #d5cba8;
 	padding:2% 7%;
 	margin: 3% 0;
-	color: #000;
+	/*color: #000;*/
+	/*Updated on 8 May*/
+	color: #0a0b0d;
 }
 
 .content_post blockquote p{
@@ -105,9 +152,14 @@ div.source, div.quotes-right{
 }
 
 .recents{
-	background: #ffffee;
+	/*background: #ffffee;
 	margin: 5% auto;
-	padding: 5%;
+	padding: 5%;*/
+	/*Updated on 8 May*/
+	background: #ffffff;
+	margin: 3% auto;
+	padding: 3%;
+
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -115,10 +167,16 @@ div.source, div.quotes-right{
 }
 
 .recent{
-	border-left: solid 5px #99aaaa;
+	/*border-left: solid 5px #99aaaa;*/
+	/*Updated on 8 May*/
+	border-left: solid 5px #28332b;
 	text-align: left;
-	background: #ccccbb;
-	padding: 5%;
+	/*background: #ccccbb;
+	padding: 5%;*/
+	/*Updated on 8 May*/
+	background: #627c63;
+	padding: 3%;
+
 	flex-grow: 1;
 }
 
@@ -129,6 +187,8 @@ div.source, div.quotes-right{
 .recent h2{
 	margin-bottom: 2%;
 	font-weight: 700;
+	/*Added on 8 May*/
+	color: #ffffff;
 }
 
 
@@ -139,21 +199,33 @@ div.source, div.quotes-right{
 
 .recent ul a{
 	color: #556655;	
+	/*Updated on 8 May*/
+	color: #d5cba8;	
+
 	text-decoration: none;
 	font-size: 1.1em;
 	font-weight: 550;
-	padding:1%;
+	/*padding:1%;*/
+	/*Removed on 8 May, Temporarily*/
 }
 
 
 .recent ul a:hover{
-	color: #668855;	
+	/*color: #668855;	*/
+	/*Updated on 8 May*/
+	color: #ffffff;	
 }
 
 .page{
-	background: #ffffee;
-	padding: 1% 5% 5% !important;
+	/*background: #ffffee;*/
+	/*Updated on 8 May*/
+	background: #ffffff;
+	/*padding: 1% 5% 5% !important;*/
+	/*Updated on 8 May*/
+	padding: 1% 3% 3% !important;
 	border-top: unset !important;
+	margin: 0 !important;
+	/*Added on 9 May*/
 }
 
 .page{
@@ -297,3 +369,19 @@ word-wrap: break-word; /* Internet Explorer 5.5+ */
     /*border-radius: 20px;*/
     /*margin: 5px;*/
 }
+
+.post_content{
+	margin-top: -3%;
+}
+/*Added on 8 May*/
+
+.post_content a{
+	color: #637f66;
+	text-decoration: none;
+}
+/*Added on 8 May*/
+
+.post_content a:hover{
+	color: #445846;
+}
+/*Added on 8 May*/

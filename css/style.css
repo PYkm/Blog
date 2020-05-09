@@ -5,19 +5,29 @@
 
 html,body{
 	/*height:100%;*/
-	height:100%;
+	/*Updated on 9 May*/
+	/*height: auto;*/
+	font-family: tahoma, '微软雅黑';
 }
 
 ::selection
 {
-	background:#bbcccc;
-	color:#ffffee;
+	/*background:#bbcccc;*/
+	/*Updated on 8 May*/
+	background-color: #54715f;
+	/*color:#ffffee;*/
+    /*Updated on 8 May*/
+    color: #ffffff;
 }
 
 ::-moz-selection
 {
-	background:#ff0000;
-	color:#ffffee;
+	/*background:#ff0000;*/
+	/*Updated on 8 May*/
+	background-color: #54715f;
+	/*color:#ffffee;*/
+    /*Updated on 8 May*/
+    color: #ffffff;
 }
 
 .nav_post{
@@ -25,7 +35,12 @@ html,body{
 }
 
 .nav_post a{
-	color: #668855 !important;
+	/*color: #668855 !important;*/
+   /*Updated on 8 May*/
+    /*color: #2f3a32 !important;*/
+    color: #637f66 !important;
+   /*Removed on 9 May, updated back on 9 May*/
+
     text-decoration: none;
     font-size: 1.1em !important;
     font-weight: 550 !important;
@@ -33,7 +48,9 @@ html,body{
 }
 
 .nav_post a:hover{
-	color: #556655 !important;
+	/*color: #556655 !important;*/
+    color: #445846 !important;
+   /*Removed on 9 May, updated back on 9 May*/
 }
 
 
@@ -43,7 +60,9 @@ html,body{
 }
 
 body{
-	background: #ffffee;
+	/*background: #ffffee;*/	
+    /*Updated on 8 May*/
+    background: #ffffff;
 }
 
 }
@@ -52,7 +71,9 @@ body{
 @media screen and (min-width: 600px){
 
 body{
-	background: #bbcccc;
+	/*background: #bbcccc;*/
+	/*Updated on 8 May*/
+	background-color: #54715f;
 }
  .box{
 	width:90%;
@@ -60,11 +81,14 @@ body{
 	margin:0% auto;
 }
 .intro{
-	margin:5% auto;
+	/*margin:5% auto;*/
+    /*Updated on 9 May*/
+	margin:3% auto;
 }
 .contact{
-    margin:5% auto;
-
+    /*margin:5% auto;*/
+    /*Updated on 9 May*/
+	margin:3% auto;
 }
 }
 
@@ -72,7 +96,12 @@ body{
 	/*display: flex;*/
 	/*height:100%;*/
 	text-align: center;
-	margin-top: -22px;
+	/*margin-top: -22px;*/
+	/*Removed on 9 May*/
+	min-height: 100%;
+	/*Added on 9 May*/
+	height: 100%;	
+	/*Added on 9 May Tempo 17:38*/
 }
 
 .nav{
@@ -85,11 +114,18 @@ ul{
 
 .intro{
 	width:100%;
-	height:20%;
+	/*height:20%;*/
+	/*移除了因为没用，父级元素高度根据子元素填充而来。on 9 May*/
+
 	/*max-height: 150px;*/
 	overflow: hidden;
 	/*background: #ffffee;*/
 	/*background: url('../imgs/introBg.jpg') center;*/
+
+	position: relative;
+	top:0;
+	left:0;
+	/*Added these 3 lines on 9 May*/
 }
 
 .intro_content{
@@ -133,46 +169,69 @@ ul{
 }
 
 .content{
-    padding:5%;
+    /*padding:5%;*/
+    /*Updated on 8 May*/
+    padding:3%;
     text-align: left;
-	background: #ffffee;
+	/*background: #ffffee;*/
+    /*Updated on 8 May*/
+    background: #ffffff;
 	color: #556655;
 }
 
 .content h1{
-   padding:3% 0;
-   color: #888866;
-   border-bottom: 3px solid #668855;
+   /*padding:3% 0;*/
+   /*Updated on 8 May*/
+   padding-bottom: 3%;
+   /*color: #888866;*/
+   /*Updated on 8 May*/
+   color: #4d6e59;
+   /*border-bottom: 3px solid #668855;*/
+   /*Updated on 8 May*/
+   border-bottom: 3px solid #2f3a32;
 }
 
 .synopsis{
 	list-style-type: none;
     padding: 2% 1%;
-	border-top: 1px dashed #668855;
+	/*border-top: 1px dashed #668855;*/
+   /*Updated on 8 May*/
+   /*border-top: 1px dashed #2f3a32;*/
+   /*Updated on 8 May*/
+   border-bottom: 1px dashed #2f3a32;
 }
 
 .synopsis h2{
-padding: 1% 0;
+	/*padding: 1% 0;*/
+   /*Removed on 8 May*/
 }
 
 .author{
-   color: #888866;
+   /*color: #888866;*/
+   /*Updated on 8 May*/
+   color: #4d6e59;
+   /*Added on 8 May*/
+   margin:1% 0;
 }
 
 .excerpt{
 	color:#556655;
-	padding:1% 0;
+	/*padding:1% 0;*/
+	/*Updated on 8 May*/
+	padding:1% 0 0;
 }
 
 a.exc{
-	color:#556655;
+	/*color:#556655;*/
+	/*Updated on 8 May*/
+	color:#303030;
 	text-decoration: none;
 
 }
 
 div.tags{
 	padding: 1% 0;
-    margin: 1% auto;
+    /*margin: 1% auto;*/
 }
 
 a.tag{
@@ -180,36 +239,66 @@ a.tag{
 	background: #888866;
 	color:#fff;	
 	*/
-	background: rgba(255,255,238,0.5);
-	color: #668855;
+	/*background: rgba(255,255,238,0.5);*/
+   /*Updated on 8 May*/
+	background: #2a4832;
+
+
+	/*color: #668855;*/
+   /*Updated on 8 May*/
+    /*color: #2f3a32;*/
+   /*Updated on 8 May*/
+   	color: #d5cba8;
 	border: 1px rgba(0,0,0,0.3) solid;
-	padding: 0.7% 1.7%;
+	/*padding: 0.7% 1.7%;*/
+   /*Updated on 8 May*/
+	padding: 0.4% 0.8%;
+
 	text-decoration: none;
-	border-radius: 8px;
+	/*border-radius: 8px;*/
+    /*Updated on 8 May*/
+	border-radius: 5px;
 	transition:all 0.7s;
+
+	line-height: 2em;
+   /*Added on 9 May*/
 }
 
 a.tag:hover{
 	/*background: #668855;	*/
-	background: #ffffc9;
+	/*background: #ffffc9;*/
+	/*Updated the color to white*/
+	color: #ffffff;
 
 }
 
 .synopsis a.tit{
     text-decoration: none;
-    color:#99aaaa;
+    /*color:#99aaaa;*/
+    /* Updated on 8 May*/
+    color: #637f66;
+
 	transition:all 0.7s;
 }
 
 .synopsis a.tit:hover{
-	color:#4499cc;
+	/*color:#4499cc;*/
+    /* Updated on 8 May*/
+    color: #445846;
+
 }
 
 .contact{
-	height:20%;
+	/*height:20%;*/
+	/*移除了因为没用，父级元素高度根据子元素填充而来。on 9 May*/
+
 	/*min-height:100px;*/
-    padding:5%;
-    background: #ffffee;
+    /*padding:5%;*/
+    /*Updated on 9 May*/
+    padding: 3%;
+    /*background: #ffffee;*/
+    /*Updated on 8 May*/
+    background: #ffffff;
 	/*background: #d3d3d3;*/
 	/*background: #556655;*/
 	/*background: #99aaaa;*/
@@ -222,14 +311,54 @@ a.tag:hover{
 }
 
 .contact a:hover{
-	color:#4499cc;
+	/*color:#4499cc;*/
+    /* Updated on 8 May*/
+    color: #445846;
 	/*color:#fff;*/
 
 }
 
 [class^="icon-"], [class*=" icon-"] {
 	font-size: 2em;
-	color:#99aaaa;
+	/*color:#99aaaa;*/
+    /* Updated on 8 May*/
+    color: #637f66;
 	/*color: #556655;*/
 }
 
+/*以下Added on 9 May*/
+/*手机端样子*/
+@media screen and (max-width: 600px){
+
+.try{
+	position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 90%; 
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+    -webkit-text-stroke: 1px #54715f;
+}
+
+}
+
+/*电脑端样子*/
+@media screen and (min-width: 600px){
+
+.try{
+	position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 90%; 
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px #54715f;
+}
+
+}
+
+/*以上Added on 9 May*/

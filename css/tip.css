@@ -1,7 +1,11 @@
 .tip{
-	background: #ffffee;
+	/*background: #ffffee;
 	padding: 0 5% 5%;
-	color: #556655;
+	color: #556655;*/
+	/*Updated on 8 May*/
+	background: #ffffff;
+	padding: 0 3%;
+	color: #0a0b0d;
 	font-size: 1.1em;
 	padding-bottom: .5%;
 }
@@ -25,18 +29,30 @@
 
 /*Tip Page css*/
 .content_tip{
-    padding:5%;
+    /*padding:5%;*/
+    /*Updated on 8 May*/
+    padding: 3%;
+
     text-align: left;
 	background: #ffffee;
-	color: #556655;
+	/*color: #556655;*/
+	/*Updated on 9 May*/
+	color: #0a0b0d;
 }
 
 .content_tip h2{
-	padding: 2% 0 2%;
+	/*padding: 2% 0 2%;*/
+	/*Updated on 9 May*/
+	padding: 0 0 2%;
 	margin-bottom: 2%;
-	color: #4499cc;
+	/*color: #4499cc;*/
+	/*Updated on 9 May*/
+	color: #445846;
 	font-size:	2em;
-	border-bottom: 10px double #668855;
+	/*border-bottom: 10px double #668855;*/
+	/*Updated on 9 May*/
+	border-bottom: 10px double #2f3a32;
+
 }
 
 
@@ -62,8 +78,12 @@
 	margin: 0 0 0 2em;
     margin-bottom: 2%;
     line-height: 1.4em;
-	background: #ccccbb;
-	padding:2% 7%;
+	/*background: #ccccbb;*/
+	/*Updated on 9 May*/
+	background: #d5cba8;
+	/*padding:2% 7%;*/
+	/*Updated on 9 May*/
+	padding:2% 4%;
 	color: #000;
 }
 
