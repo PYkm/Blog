@@ -18,7 +18,7 @@ location: 上海
 > <span class="icon-quotes-left"></span>  
 > 不要带着情绪做判断。个人的情绪并不能成为证据，许多人常存在误解。  
 > 历史悠久、源远流长也不能作为论据。强调这点的人，很可能是捏造历史的人，需要小心。  
-> <div class="source">————《曙光》</div>  
+> <div class="source">———— 尼采<em>《曙光》</em></div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  
@@ -33,7 +33,7 @@ location: 上海
 > 而且无论如何都要把它坚持到底，             
 > 你很少会赢，             
 > 但有时也会。             
-> <div class="source">————Haper·Lee《杀死一只知更鸟》</div>  
+> <div class="source">———— Haper·Lee<em>《杀死一只知更鸟》</em></div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  

@@ -24,7 +24,8 @@
 
 	/*border-top: 3px solid #668855;*/
 	/*Removed on 8 May*/
-	font-weight:600;
+	/*font-weight:600;*/
+	/*Removed on 10 May*/
 	/*color:#668855;*/
 	/*Updated on 8 May*/
 	color:#424242;
@@ -42,7 +43,9 @@
 	padding: 0.8% 1%;
 	/*color:#000;*/
 	color:#fff;
-	border-radius: 8px;
+	/*border-radius: 8px;*/
+	/*Updated on 10 May*/
+	border-radius: 5px;
 	transition:all 0.7s;
 }
 

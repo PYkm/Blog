@@ -189,6 +189,8 @@ div.source, div.quotes-right{
 	font-weight: 700;
 	/*Added on 8 May*/
 	color: #ffffff;
+	font-size: 1.2em;
+	/*Added on 10 May*/
 }
 
 
@@ -203,7 +205,8 @@ div.source, div.quotes-right{
 	color: #d5cba8;	
 
 	text-decoration: none;
-	font-size: 1.1em;
+	/*font-size: 1.1em;*/
+	/*Removed on 10 May*/
 	font-weight: 550;
 	/*padding:1%;*/
 	/*Removed on 8 May, Temporarily*/
@@ -236,12 +239,24 @@ div.source, div.quotes-right{
 }
 
 .page a{
-	padding: 0.8% 5% !important;
+	/*padding: 0.8% 5% !important;*/
+	/*Updated on 10 May*/
+	padding: 0.8% 1.6% !important;
 }
 
 .page div{
 	flex-grow: 1;
-	padding: 1.5% 1%;
+	/*padding: 1.5% 1%;*/
+	/*Removed on 10 May*/
+	/*Added below on 10 May*/
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    /* width: 48%; */
+    color: white;
+    line-height: 2em;
+	/*Added Above on 10 May*/
 }
 
 .page div.left{

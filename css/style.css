@@ -30,10 +30,13 @@ html,body{
     color: #ffffff;
 }
 
+
+/*“首页”的样式*/
 .nav_post{
 	text-align: right;
 }
 
+/*“首页”的样式*/
 .nav_post a{
 	/*color: #668855 !important;*/
    /*Updated on 8 May*/
@@ -47,6 +50,7 @@ html,body{
     padding: 1% !important;
 }
 
+/*“首页”的样式*/
 .nav_post a:hover{
 	/*color: #556655 !important;*/
     color: #445846 !important;
@@ -96,8 +100,9 @@ body{
 	/*display: flex;*/
 	/*height:100%;*/
 	text-align: center;
-	/*margin-top: -22px;*/
-	/*Removed on 9 May*/
+	margin-top: -22px;
+	/*Removed on 9 May, but added back on 10 May.*/
+
 	min-height: 100%;
 	/*Added on 9 May*/
 	height: 100%;	
@@ -171,7 +176,10 @@ ul{
 .content{
     /*padding:5%;*/
     /*Updated on 8 May*/
-    padding:3%;
+    /*padding:3%;*/
+    /*Updated on 10 May*/
+	padding:0 3% 3%;
+
     text-align: left;
 	/*background: #ffffee;*/
     /*Updated on 8 May*/
@@ -230,7 +238,8 @@ a.exc{
 }
 
 div.tags{
-	padding: 1% 0;
+	/*padding: 1% 0;*/
+	/*Removed on 10 May*/
     /*margin: 1% auto;*/
 }
 
@@ -262,6 +271,9 @@ a.tag{
 
 	line-height: 2em;
    /*Added on 9 May*/
+
+    white-space: nowrap;
+    /*Added on 10 May*/
 }
 
 a.tag:hover{
@@ -326,9 +338,70 @@ a.tag:hover{
 	/*color: #556655;*/
 }
 
+/*以下Added on 10 May*/
+/*350px宽度以下手机端样子*/
+@media screen and (max-width: 350px){
+
+.try{
+	display:none;
+}
+
+}
+
+/*350-420px宽度以下手机端样子*/
+@media screen and (min-width: 350px) and (max-width: 420px){
+
+.try{
+	position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%; 
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+    -webkit-text-stroke: 1px #54715f;
+}
+
+}
+
+/*420-500px宽度以下手机端样子*/
+@media screen and (min-width: 420px) and (max-width: 500px){
+
+.try{
+	position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%; 
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px #54715f;
+}
+
+}
+
+/*500-600px宽度以下手机端样子*/
+@media screen and (min-width: 500px) and (max-width: 600px){
+
+.try{
+	position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%; 
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px #54715f;
+}
+
+}
+
 /*以下Added on 9 May*/
-/*手机端样子*/
-@media screen and (max-width: 600px){
+/*600-700px宽度手机端样子*/
+@media screen and (min-width: 600px) and (max-width: 700px){
 
 .try{
 	position: absolute;
@@ -338,14 +411,14 @@ a.tag:hover{
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 2.5em;
     -webkit-text-stroke: 1px #54715f;
 }
 
 }
 
 /*电脑端样子*/
-@media screen and (min-width: 600px){
+@media screen and (min-width: 700px){
 
 .try{
 	position: absolute;
