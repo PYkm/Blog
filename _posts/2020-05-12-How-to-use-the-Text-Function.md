@@ -17,15 +17,15 @@ location: 上海
 下面是我工作的表格，其中工作簿“公司1”、“公司2”、“公司3”里的数据支持部分的数据不一样，但其他结构是一样的，让我手动去更新每张表的“总结”部分岂不是要累死我？
 
 <div class="zoom-pic-full">
-	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Textjoin-function-before.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Textjoin-function-before.png" title="“公司1”工作簿中的内容" style="width:251px; height:120px;">
-		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Textjoin-function-before.png">
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Text-function-before.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Text-function-before.png" title="“公司1”工作簿中的内容" style="width:251px; height:120px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Text-function-before.png">
 	</a>
 </div>
 
 于是我使用了concatenate函数、无数个被双引号包裹的字符串、几个引用的单元格地址、几个其他公式，终于完成了自动化，长舒一口气，觉得是时候捧起一本书看看了。结果！敲击回车之后，被眼前这凌乱的单元格吓了一跳：
 <div class="zoom-pic-full">
-	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Textjoin-function-middle.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Textjoin-function-middle.png" title="好不容易用公式拼接了字符串，然而有不少问题" style="width:251px; height:120px;">
-		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Textjoin-function-middle.png">
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Text-function-middle.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Text-function-middle.png" title="好不容易用公式拼接了字符串，然而有不少问题" style="width:251px; height:120px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Text-function-middle.png">
 	</a>
 </div>
 
@@ -35,8 +35,8 @@ location: 上海
 
 但是我怎么可能是这么容易就服输的人呢，于是我开始夜以继日的查资料。终于，在我不懈努力的查找之下，让我发现了这个函数：Text函数，他就像是黑夜里的一盏灯，照亮了我前进的路。感恩！经过查找，我最终把单元格中的内容变成我想要的格式：
 <div class="zoom-pic-full">
-	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Textjoin-function-after.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Textjoin-function-after.png" title="用TEXT函数纠正了数据部分的格式" style="width:251px; height:120px;">
-		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Textjoin-function-after.png">
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Text-function-after.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Text-function-after.png" title="用TEXT函数纠正了数据部分的格式" style="width:251px; height:120px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-05-12-How-to-use-the-Text-function-after.png">
 	</a>
 </div>
 

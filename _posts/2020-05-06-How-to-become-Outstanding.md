@@ -58,4 +58,4 @@ location: 上海
 好的，现在你一定清楚insert note和comment的使用方法了吧？大家一起学习，争取变得更优秀哦！
 
 参考链接：
-1. [Use Comments & action items](https://support.google.com/docs/answer/65219?hl=en&co=GENIE.Platform=Desktop)
+1. <a href="https://support.google.com/docs/answer/65219?hl=en&co=GENIE.Platform=Desktop" target="_blank">Use Comments & action items</a>
