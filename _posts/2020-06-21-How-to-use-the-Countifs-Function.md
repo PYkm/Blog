@@ -4,7 +4,7 @@ tags:
 - Google Sheets
 - Excel
 - 高效
-title: countifs函数
+title: countifs函数，满足多个条件才计数
 excerpt: 除了countif这个非常常用的函数，countifs这个双胞胎姐妹也很有用，会经常用到哦，点进来了解更多详情吧！
 date: 2020.06.21 20:35:00
 location: 上海
