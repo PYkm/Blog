@@ -27,13 +27,13 @@
 }
 
 .icon-bilibili:before {
-  content: "\e900";
-}
-.icon-home:before {
   content: "\e901";
 }
-.icon-home3:before {
+.icon-home:before {
   content: "\e902";
+}
+.icon-home3:before {
+  content: "\e903";
 }
 .icon-play:before {
   content: "\e912";
@@ -541,4 +541,7 @@
 }
 .icon-pinterest2:before {
   content: "\ead2";
+}
+.icon-wechat:before {
+  content: "\e900";
 }
