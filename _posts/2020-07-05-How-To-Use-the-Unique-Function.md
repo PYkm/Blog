@@ -22,8 +22,8 @@ location: 上海
 来看一个例子，学院绩点排名出来了，老师请你帮他确认排名前十五的学生都分布在哪些班级。原来的表格像这样：
 
 <div class="zoom-pic-full">
-	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-1.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-1.png" title="初始文档样式" style="width:251px; height:120px;">
-		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-1.png">
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-1.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-1.png" title="初始文档样式" style="width:251px; height:120px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-1.png">
 	</a>
 </div>
 
@@ -45,8 +45,8 @@ location: 上海
 
 放进表格里面试试：
 <div class="zoom-pic-full">
-	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-2.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-2.png" title="使用=Unique(B1:B16)后" style="width:251px; height:120px;">
-		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-2.png">
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-2.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-2.png" title="使用=Unique(B1:B16)后" style="width:251px; height:120px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-2.png">
 	</a>
 </div>
 
@@ -55,8 +55,8 @@ location: 上海
 **=sort(unique(B2:B16))**
 
 <div class="zoom-pic-full">
-	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-0.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-0.png" title="使用=sort(unique(B2:B16))后" style="width:251px; height:120px;">
-		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-0.png">
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-0.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-0.png" title="使用=sort(unique(B2:B16))后" style="width:251px; height:120px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-0.png">
 	</a>
 </div>
 
@@ -65,8 +65,8 @@ location: 上海
 **=count(unique(B2:B16))**
 
 <div class="zoom-pic-full">
-	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-3.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-3.png" title="使用=count(unique(B2:B16))后" style="width:251px; height:120px;">
-		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-To-Use-the-Unique-Function-3.png">
+	<a href="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-3.png" data-detail="" data-source="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-3.png" title="使用=count(unique(B2:B16))后" style="width:251px; height:120px;">
+		<img src="{{ site.url }}/{{ site.baseurl }}/imgs/posts/2020-07-05-How-to-use-the-Unique-Function-3.png">
 	</a>
 </div>
 
