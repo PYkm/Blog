@@ -1,9 +1,7 @@
 ---
 layout: post
 tags: 
-- Google Sheets
-- Excel
-- 高效
+- COVID19
 title: COVID19如何改变了我
 excerpt: 新闻一直都在说“疫情突如其来，改变了很多人的生活……” 那你呢？你的生活被怎样改变了？
 date: 2020.07.18 11:52:00
