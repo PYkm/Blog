@@ -1,17 +1,17 @@
 ---
 layout: tip
-title: 请我看书
+title: 关注微信公众号
 ---
 
 <!-- ## {{page.title}} -->
 
-嗨！很开心你喜欢我的部落格，如果觉得博文对你有帮助，可以请我看本书哦~
+嗨！很开心你想要了解我的公众号：**和我一起背考研单词**。此公众号于2020年6月27号注册，6月28号发表第一篇原创文章。致力于分享有趣的记忆方法，和大家一起背单词，提升词汇量。你可以通过以下方法关注：
 
 <div class="tip_ways">
-<p>1. 	转账到我的支付宝账户</p>
-<p>jennifer.chan3@hotmail.com</p>
-<p>2. 	支付宝扫二维码</p>
-<img title="扫码请我看本书" src="{{ site.url }}/{{ site.baseurl }}/imgs/QR.jpg">
+<p>1. 	微信搜索公众号</p>
+<p>和我一起背考研单词</p>
+<p>2. 	微信扫描二维码</p>
+<img title="公众号：和我一起背考研单词" src="{{ site.url }}/{{ site.baseurl }}/imgs/qrcode_for_hw17bdc.jpg">
 </div>
 
 ## 关于我
