@@ -1,3 +1,3 @@
 git add .
-git commit -m 'Update Zhifubao QR jpg'
+git commit -m 'Add Google Adsense to Blog pages'
 git push origin gh-pages
