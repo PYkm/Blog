@@ -1,3 +1,3 @@
 git add .
-git commit -m 'Upload 1 Blog'
+git commit -m 'Update Zhifubao QR jpg'
 git push origin gh-pages
