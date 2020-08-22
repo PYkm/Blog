@@ -16,7 +16,7 @@ location: 上海
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  
-> There are always limits, and there are always opportunities. The ones we rehearse and focus on are the ones that shape our attitude and our actions
+> There are always limits, and there are always opportunities. The ones we rehearse and focus on are the ones that shape our attitude and our actions.
 > <div class="source">———— Seth Godin</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
