@@ -16,21 +16,21 @@ location: 上海
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  
-> Try to be a rainbow in someone's cloud.
-> <div class="source">———— Maya Angelou</div>  
+> When you're curious, you find lots of interesting things to do.
+> <div class="source">———— Walt Disney</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  
-> Give thanks for a little and you will find a lot.
-> <div class="source">———— Hansa Proverb</div>  
+> Be brave. Take risks. Nothing can substitute experience.
+> <div class="source">———— Paulo Coelho</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  
-> Tough times don't last; tough people do.            
-> <div class="source">———— Gregory Peck</div>  
+> Deciding what not to do is as important as deciding what to do.           
+> <div class="source">———— Steve Jobs</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  
-> For every minute you remain angry, you give up sixty seconds of peace of mind.
-> <div class="source">———— Ralph Waldo Emerson</div>  
+> The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.
+> <div class="source">———— Jordan Belfort</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
