@@ -22,8 +22,8 @@ It's about how it feels to you.
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  
-> We may encounter many defeats but we must not be defeated.
-> <div class="source">———— Maya Angelou</div>  
+> It's time to shed the burdens of the past year and come up fresh and alive.
+> <div class="source">———— Sadhguru</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  
