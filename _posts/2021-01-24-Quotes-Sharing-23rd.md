@@ -16,8 +16,7 @@ location: 上海
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
 > <span class="icon-quotes-left"></span>  
-> Success isn't about how your life looks to others.
-It's about how it feels to you.
+> Success isn't about how your life looks to others. It's about how it feels to you.
 > <div class="source">———— Michelle Obama</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
