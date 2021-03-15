@@ -11,7 +11,7 @@ location: 上海
 ---
 
 > <span class="icon-quotes-left"></span>  
-> Step out of the history that is holding you back. Step into the new history you are willing to crate.
+> Step out of the history that is holding you back. Step into the new history you are willing to create.
 > <div class="source">———— Oprah Winfrey</div>  
 > <div class="quotes-right"><span class="icon-quotes-right"></span></div>
 
